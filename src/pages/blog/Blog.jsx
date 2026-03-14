@@ -138,7 +138,7 @@ const Blog = () => {
 
             <br />
             <p>
-              <span>+1 416 555 1234</span>
+              <span>+971 55 283 3155</span>
             </p>
             <p>
               <span>Instagram • TikTok</span>

@@ -119,14 +119,14 @@ const About = () => {
             <h2>Powered by Your Creativity</h2>
             <p>
               <span>
-                For a CV, portfolio, or inquiries, please reach out to
-                hello@curafuturi.com
+                For collaborations, podcast inquiries, or just to say hi,
+                reach out to umeir.zammer@example.com
               </span>
             </p>
 
             <br />
             <p>
-              <span>+1 416 555 1234</span>
+              <span>+971 55 283 3155</span>
             </p>
             <p>
               <span>Instagram • TikTok</span>

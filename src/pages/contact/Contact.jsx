@@ -80,17 +80,12 @@ const Contact = () => {
             <div className="contact-col">
               <div className="contact-social-link">
                 <p>
-                  <a href="#">Instagram</a>
+                  <a href="https://www.instagram.com/umairzameer20?igsh=bG4ydzNob3Joajlh" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </p>
               </div>
               <div className="contact-social-link">
                 <p>
-                  <a href="#">TikTok</a>
-                </p>
-              </div>
-              <div className="contact-social-link">
-                <p>
-                  <a href="#">Twitter</a>
+                  <a href="https://www.tiktok.com/@umairzameer_20?_r=1&_t=ZS-94g1CQmg0Cu" target="_blank" rel="noopener noreferrer">TikTok</a>
                 </p>
               </div>
             </div>
