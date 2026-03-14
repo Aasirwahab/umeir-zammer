@@ -8,11 +8,7 @@ import Marquee from "react-fast-marquee";
 import MagneticButton from "../../components/magneticbutton/MagneticButton";
 import { gsap } from "gsap";
 
-import ProjectImg1 from "../../assets/images/projects/project-1.jpg";
-import ProjectImg2 from "../../assets/images/projects/project-2.jpg";
-import ProjectImg3 from "../../assets/images/projects/project-3.jpg";
-import ProjectImg4 from "../../assets/images/projects/project-4.jpg";
-import ProjectImg5 from "../../assets/images/projects/project-5.jpg";
+// Images are loaded directly from the public folder as strings
 
 const Works = () => {
   const workCopyReveal = useRef();
@@ -123,7 +119,7 @@ const Works = () => {
               >
                 <div className="project-img">
                   <Link to="/sample-project">
-                    <img src={ProjectImg1} alt="" />
+                    <img src="/IMG-20260314-WA0022.jpg" alt="The Power of Humor" />
                   </Link>
                 </div>
                 <div className="project-copy copy-pos-right">
@@ -143,7 +139,7 @@ const Works = () => {
               >
                 <div className="project-img">
                   <Link to="/sample-project">
-                    <img src={ProjectImg2} alt="" />
+                    <img src="/IMG-20260314-WA0023.jpg" alt="Daily Motivation" />
                   </Link>
                 </div>
                 <div className="project-copy copy-pos-left">
@@ -161,7 +157,7 @@ const Works = () => {
               >
                 <div className="project-img">
                   <Link to="/sample-project">
-                    <img src={ProjectImg3} alt="" />
+                    <img src="/IMG-20260314-WA0024.jpg" alt="UAE Life Vlogs" />
                   </Link>
                 </div>
                 <div className="project-copy copy-pos-right">
@@ -181,7 +177,7 @@ const Works = () => {
               >
                 <div className="project-img">
                   <Link to="/sample-project">
-                    <img src={ProjectImg4} alt="" />
+                    <img src="/IMG-20260314-WA0026.jpg" alt="Personal Growth 101" />
                   </Link>
                 </div>
                 <div className="project-copy copy-pos-left">
@@ -199,7 +195,7 @@ const Works = () => {
               >
                 <div className="project-img">
                   <Link to="/sample-project">
-                    <img src={ProjectImg5} alt="" />
+                    <img src="/IMG-20260314-WA0027.jpg" alt="Behind the Mic" />
                   </Link>
                 </div>
                 <div className="project-copy copy-pos-right">
@@ -219,8 +215,10 @@ const Works = () => {
         >
           <Marquee>
             <h1>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
-              odit?
+              Umeir Zammer • Podcast Host • Content Creator • Based in UAE •
+              Self-Improvement • Motivation • Comedy • Umeir Zammer • Podcast
+              Host • Content Creator • Based in UAE • Self-Improvement •
+              Motivation • Comedy •
             </h1>
           </Marquee>
         </div>

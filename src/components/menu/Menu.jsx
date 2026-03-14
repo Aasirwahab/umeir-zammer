@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 
 import DefaultPreviewImg from "../../assets/images/menu/default.jpg";
-import LinkPreviewImg1 from "../../assets/images/home/portrait.jpg";
-import LinkPreviewImg2 from "../../assets/images/menu/link-2.jpg";
-import LinkPreviewImg3 from "../../assets/images/menu/link-3.jpg";
-import LinkPreviewImg4 from "../../assets/images/menu/link-4.jpg";
+const LinkPreviewImg1 = "/IMG-20260314-WA0030.jpg";
+const LinkPreviewImg2 = "/IMG-20260314-WA0029.jpg";
+const LinkPreviewImg3 = "/IMG-20260314-WA0023.jpg";
+const LinkPreviewImg4 = "/IMG-20260314-WA0024.jpg";
 
 const Menu = () => {
   const menuLinks = [
@@ -140,7 +140,7 @@ const Menu = () => {
     <div className="menu-container" ref={menuContainer}>
       <div className="menu-bar">
         <div className="menu-logo" onClick={closeMenu}>
-          <Link to="/">Cura Futuri</Link>
+          <Link to="/">Umeir Zammer</Link>
         </div>
         <div className="menu-actions">
           <div className="contact-btn">

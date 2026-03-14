@@ -59,24 +59,23 @@ const SampleProject = () => {
   return (
     <div className="project page">
       <section className="project-hero">
-        <img src={ProjectImg2} alt="" />
+        <img src="/IMG-20260314-WA0019.jpg" alt="" />
       </section>
 
       <div className="nextProjectPreviewBg">
-        <img src={ProjectImg3} alt="" />
+        <img src="/IMG-20260314-WA0024.jpg" alt="" />
       </div>
 
       <div className="container">
         <section className="project-title">
-          <h1>Quantleaf</h1>
-          <p>UX/UI • Website</p>
+          <h1>Podcast Episode Highlight</h1>
+          <p>Motivation • Self-Improvement</p>
         </section>
 
         <section className="project-brief">
           <h2>
-            Complete rebranding and digital transformation for Quanleaf, a
-            cutting-edge biotech firm based in Boston, specializing in
-            sustainable agricultural solutions.
+            A deep dive into the habits and mindsets that drive success in the modern digital landscape, 
+            featuring insights from leading voices in the UAE community.
           </h2>
         </section>
 
@@ -91,13 +90,13 @@ const SampleProject = () => {
               </div>
               <div className="project-sub-col">
                 <p>
-                  <span>Credits</span>
+                  <span>Host</span>
                 </p>
-                <p>Client: Quanleaf Innovations</p>
-                <p>Creative Direction: Elena Miro</p>
-                <p>Art Director: Samuel Hyde</p>
-                <p>Designers: Lucia Grant, Alex Moreno</p>
-                <p>Brand Strategy: Orion Strategies</p>
+                <p>Umeir Zammer</p>
+                <p>
+                  <span>Guest</span>
+                </p>
+                <p>Special Guest Interviewee</p>
               </div>
             </div>
             <div className="project-col">
@@ -105,19 +104,13 @@ const SampleProject = () => {
                 <span>Goals</span>
               </p>
               <p>
-                The Quanleaf project aimed to revolutionize the brand's digital
-                presence, aligning it with their mission to innovate in the
-                field of sustainable agriculture. Our objectives were to craft a
-                brand identity that resonates with their core values of
-                sustainability, innovation, and community engagement. We focused
-                on developing a user-friendly, informative website that
-                showcases Quanleaf's groundbreaking research and product
-                offerings, while also facilitating engagement and collaboration
-                within the biotech and agricultural sectors. Through strategic
-                branding, engaging design, and intuitive user experience, we
-                aimed to position Quanleaf as a leader in sustainable biotech
-                solutions, driving awareness, and fostering a community of
-                advocates and partners.
+                In this episode, we explore the challenges and triumphs of
+                building a career as a content creator in the UAE. We discuss
+                the importance of authenticity, the power of humor in 
+                storytelling, and how to maintain a positive mindset while 
+                navigating the ever-changing digital world. This segment 
+                showcases Umeir's ability to host engaging conversations that 
+                provide real value and inspiration to his audience.
               </p>
             </div>
           </div>
@@ -169,7 +162,7 @@ const SampleProject = () => {
                 document.removeEventListener("mousemove", handleMouseMove);
               }}
             >
-              <Link to="/">Mystrove Leaf</Link>
+              <Link to="/">Latest Vlog</Link>
             </h1>
           </div>
         </section>

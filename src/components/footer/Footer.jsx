@@ -8,19 +8,16 @@ const Footer = () => {
       <div className="container">
         <div className="footer-col">
           <div className="footer-item">
-            <a href="#">Getting Started</a>
+            <a href="#">Self-Improvement</a>
           </div>
           <div className="footer-item">
-            <a href="#">Style Guide</a>
+            <a href="#">Motivation</a>
           </div>
           <div className="footer-item">
-            <a href="#">Licensing</a>
+            <a href="#">Comedy</a>
           </div>
           <div className="footer-item">
-            <a href="#">Changelog</a>
-          </div>
-          <div className="footer-item">
-            <a href="#">Terms</a>
+            <a href="#">Podcast</a>
           </div>
         </div>
         <div className="footer-col">

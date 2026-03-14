@@ -14,7 +14,7 @@ const Blog = () => {
       <div className="container">
         <div className="blog-hero">
           <h1>
-            Journal <span>on design.</span>
+            Podcast Notes <span>& Vlogs.</span>
           </h1>
         </div>
 
@@ -31,11 +31,11 @@ const Blog = () => {
                   <div className="blog-title">
                     <h3>
                       <Link to="/sample-blog">
-                        Shadow & Light: Exploring Visual Depth in Design
+                        Ep. 01 | The Journey of a Content Creator in UAE
                       </Link>
                     </h3>
                     <p>
-                      <span>Design Insights</span>
+                      <span>Podcast Episode</span>
                     </p>
                   </div>
 
@@ -56,11 +56,11 @@ const Blog = () => {
                   <div className="blog-title">
                     <h3>
                       <Link to="/sample-blog">
-                        Minimalist Methods: The Art of Less is More
+                        Self-Improvement: 5 Habits that Changed My Life
                       </Link>
                     </h3>
                     <p>
-                      <span>Creative Process</span>
+                      <span>Self-Improvement</span>
                     </p>
                   </div>
 
@@ -83,11 +83,11 @@ const Blog = () => {
                   <div className="blog-title">
                     <h3>
                       <Link to="/sample-blog">
-                        Color Theory, Crafted: A Designer's Spectrum
+                        Why Comedy is Essential for Personal Growth
                       </Link>
                     </h3>
                     <p>
-                      <span>Techniques</span>
+                      <span>Comedy & Motivation</span>
                     </p>
                   </div>
 
@@ -108,63 +108,11 @@ const Blog = () => {
                   <div className="blog-title">
                     <h3>
                       <Link to="/sample-blog">
-                        Digital Narratives: Telling Stories Through Design
+                        Building a Community in the Digital Age
                       </Link>
                     </h3>
                     <p>
-                      <span>Storytelling</span>
-                    </p>
-                  </div>
-
-                  <div className="blog-arrow">
-                    <ArrowRight size={32} weight="light" color="#fff" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="blog-row">
-            <div className="blog-col">
-              <div className="blog-item">
-                <div className="blog-divider">
-                  <div className="b-div-1"></div>
-                  <div className="b-div-2"></div>
-                </div>
-
-                <div className="blog-title-wrapper">
-                  <div className="blog-title">
-                    <h3>
-                      <Link to="/sample-blog">
-                        The Future of UI: Interactive Beyond Imagination
-                      </Link>
-                    </h3>
-                    <p>
-                      <span>Innovation</span>
-                    </p>
-                  </div>
-
-                  <div className="blog-arrow">
-                    <ArrowRight size={32} weight="light" color="#fff" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="blog-col">
-              <div className="blog-item">
-                <div className="blog-divider">
-                  <div className="b-div-1"></div>
-                  <div className="b-div-2"></div>
-                </div>
-
-                <div className="blog-title-wrapper">
-                  <div className="blog-title">
-                    <h3>
-                      <Link to="/sample-blog">
-                        Eco Design Trends: Sustainability Meets Aesthetics
-                      </Link>
-                    </h3>
-                    <p>
-                      <span>Trends</span>
+                      <span>Community</span>
                     </p>
                   </div>
 
@@ -176,34 +124,6 @@ const Blog = () => {
             </div>
           </div>
 
-          <div className="blog-row">
-            <div className="blog-col">
-              <div className="blog-item">
-                <div className="blog-divider">
-                  <div className="b-div-1"></div>
-                  <div className="b-div-2"></div>
-                </div>
-
-                <div className="blog-title-wrapper">
-                  <div className="blog-title">
-                    <h3>
-                      <Link to="/sample-blog">
-                        Shadow & Light: Exploring Visual Depth in Design
-                      </Link>
-                    </h3>
-                    <p>
-                      <span>Design Insights</span>
-                    </p>
-                  </div>
-
-                  <div className="blog-arrow">
-                    <ArrowRight size={32} weight="light" color="#fff" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="blog-col"></div>
-          </div>
         </section>
 
         <section className="about-contact">
@@ -211,8 +131,8 @@ const Blog = () => {
             <h2>Powered by Your Creativity</h2>
             <p>
               <span>
-                For a CV, portfolio, or inquiries, please reach out to
-                hello@curafuturi.com
+                For collaborations, podcast inquiries, or just to say hi,
+                reach out to umeir.zammer@example.com
               </span>
             </p>
 
@@ -221,7 +141,7 @@ const Blog = () => {
               <span>+1 416 555 1234</span>
             </p>
             <p>
-              <span>Instagram • Twitter</span>
+              <span>Instagram • TikTok</span>
             </p>
           </div>
         </section>

@@ -22,13 +22,24 @@ const Home = () => {
 
     heroImageReveal.current = gsap
       .timeline({ paused: true })
-      .from(".hero-img", {
-        y: "1000",
+      .from(".hero-img-left", {
+        x: "-1000",
         rotate: -10,
-        duration: 1,
+        duration: 1.2,
         ease: "power3.out",
         delay: 0.75,
-      });
+      })
+      .from(
+        ".hero-img-right",
+        {
+          x: "1000",
+          rotate: 10,
+          duration: 1.2,
+          ease: "power3.out",
+          delay: 0.75,
+        },
+        "<"
+      );
 
     heroTaglineReveal.current = gsap
       .timeline({ paused: true })
@@ -46,8 +57,11 @@ const Home = () => {
   }, []);
   return (
     <section className="hero-section">
-      <div className="hero-img">
-        <img src="/IMG-20260314-WA0019.jpg" alt="Umeir Zammer" />
+      <div className="hero-img-left hero-img">
+        <img src="/IMG-20260314-WA0031.jpg" alt="Umeir Zammer Solo" />
+      </div>
+      <div className="hero-img-right hero-img">
+        <img src="/IMG-20260314-WA0019.jpg" alt="Umeir Zammer Group" />
       </div>
       <div className="hero-copy">
         <div className="hero-copy-wrapper">
