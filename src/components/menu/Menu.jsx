@@ -140,9 +140,9 @@ const Menu = () => {
     <div className="menu-container" ref={menuContainer}>
       <div className="menu-bar">
         <div className="menu-logo" onClick={closeMenu}>
-          <Link to="/">Umeir Zammer</Link>
+          <Link to="/">Umair Zameer</Link>
         </div>
-        <div className="menu-actions">
+        <div className={`menu-actions ${isMenuOpen ? "menu-open" : ""}`}>
           <div className="contact-btn">
             <div className="btn">
               <Link to="/contact">Contact</Link>

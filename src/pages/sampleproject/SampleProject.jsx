@@ -92,7 +92,7 @@ const SampleProject = () => {
                 <p>
                   <span>Host</span>
                 </p>
-                <p>Umeir Zammer</p>
+                <p>Umair Zameer</p>
                 <p>
                   <span>Guest</span>
                 </p>
@@ -109,7 +109,7 @@ const SampleProject = () => {
                 the importance of authenticity, the power of humor in 
                 storytelling, and how to maintain a positive mindset while 
                 navigating the ever-changing digital world. This segment 
-                showcases Umeir's ability to host engaging conversations that 
+                showcases Umair's ability to host engaging conversations that 
                 provide real value and inspiration to his audience.
               </p>
             </div>

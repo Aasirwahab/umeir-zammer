@@ -215,8 +215,8 @@ const Works = () => {
         >
           <Marquee>
             <h1>
-              Umeir Zammer • Podcast Host • Content Creator • Based in UAE •
-              Self-Improvement • Motivation • Comedy • Umeir Zammer • Podcast
+              Umair Zameer • Podcast Host • Content Creator • Based in UAE •
+              Self-Improvement • Motivation • Comedy • Umair Zameer • Podcast
               Host • Content Creator • Based in UAE • Self-Improvement •
               Motivation • Comedy •
             </h1>

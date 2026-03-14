@@ -58,22 +58,22 @@ const Home = () => {
   return (
     <section className="hero-section">
       <div className="hero-img-left hero-img">
-        <img src="/IMG-20260314-WA0031.jpg" alt="Umeir Zammer Solo" />
+        <img src="/IMG-20260314-WA0031.jpg" alt="Umair Zameer Solo" />
       </div>
       <div className="hero-img-right hero-img">
-        <img src="/IMG-20260314-WA0019.jpg" alt="Umeir Zammer Group" />
+        <img src="/IMG-20260314-WA0019.jpg" alt="Umair Zameer Group" />
       </div>
       <div className="hero-copy">
         <div className="hero-copy-wrapper">
-          <h1>Umeir</h1>
+          <h1>Umair</h1>
         </div>
         <div className="hero-copy-wrapper">
-          <h1>Zammer</h1>
+          <h1>Zameer</h1>
         </div>
       </div>
 
       <div className="hero-tagline">
-        <p>Host of the Umeir Zammer Podcast | Self-improvement, Motivation & Comedy | Based in UAE.</p>
+        <p>Host of the Umair Zameer Podcast | Self-improvement, Motivation & Comedy | Based in UAE.</p>
       </div>
     </section>
   );

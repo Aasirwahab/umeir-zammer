@@ -16,7 +16,7 @@ const About = () => {
       {
         title: "What is the focus of your podcast?",
         content:
-          "The Umeir Zammer Podcast is a blend of self-improvement, motivation, and comedy. I believe that personal growth doesn't always have to be so serious, and humor is a powerful tool for learning and connection. My goal is to inspire my audience while keeping them entertained.",
+          "The Umair Zameer Podcast is a blend of self-improvement, motivation, and comedy. I believe that personal growth doesn't always have to be so serious, and humor is a powerful tool for learning and connection. My goal is to inspire my audience while keeping them entertained.",
       },
       {
         title: "How do you approach brand collaborations?",
@@ -38,14 +38,14 @@ const About = () => {
           <Marquee>
             <h1>
               Sharing Stories of Improvement, Motivation, and Comedy through
-              the Umeir Zammer Podcast.
+              the Umair Zameer Podcast.
             </h1>
           </Marquee>
         </section>
 
         <section className="about-intro">
           <h2>
-            Umeir Zammer is a dynamic Podcast Host and Multi-platform Creator
+            Umair Zameer is a dynamic Podcast Host and Multi-platform Creator
             based in the UAE. Focusing on self-improvement, motivation, and
             comedy, he connects with a Micro-audience of 5K-25K followers who
             are passionate about personal growth and high-quality content.
@@ -61,7 +61,7 @@ const About = () => {
             </div>
             <div className="about-col">
               <h3>
-                Umeir partners with brands across various industries, creating
+                Umair partners with brands across various industries, creating
                 engaging content for Instagram and TikTok. His podcast serves as
                 a hub for insightful conversations and comedic relief, helping
                 his audience navigate life with a positive and growth-oriented
@@ -69,7 +69,7 @@ const About = () => {
               </h3>
               <h3 style={{ textIndent: "100px" }}>
                 Driven by a passion for storytelling and authentic connection,
-                Umeir has quickly become a recognizable voice in the UAE's
+                Umair has quickly become a recognizable voice in the UAE's
                 influencer landscape, known for his unique blend of motivational
                 and humorous content.
               </h3>
@@ -86,7 +86,7 @@ const About = () => {
               <br />
               <br />
               <p>
-                <span>Email: </span> <span>umeir.zammer@example.com</span>
+                <span>Email: </span> <span>umairzameer523@gmail.com</span>
               </p>
               <p>
                 <span>Socials: </span> <span>Instagram • TikTok</span>
@@ -102,7 +102,7 @@ const About = () => {
             </div>
             <div className="about-col">
               <div className="about-portrait-img">
-                <img src="/IMG-20260314-WA0030.jpg" alt="Umeir Zammer" />
+                <img src="/IMG-20260314-WA0030.jpg" alt="Umair Zameer" />
               </div>
 
               <div className="faqs">
@@ -120,7 +120,7 @@ const About = () => {
             <p>
               <span>
                 For collaborations, podcast inquiries, or just to say hi,
-                reach out to umeir.zammer@example.com
+                reach out to umairzameer523@gmail.com
               </span>
             </p>
 

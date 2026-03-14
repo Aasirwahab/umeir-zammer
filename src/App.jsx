@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
@@ -15,10 +16,15 @@ import SampleProject from "./pages/sampleproject/SampleProject";
 import SampleBlog from "./pages/sampleblog/SampleBlog";
 
 import { AnimatePresence } from "framer-motion";
-
 function App() {
   const location = useLocation();
-  const showFooter = location.pathname !== "/";
+  const { pathname } = location;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  const showFooter = pathname !== "/";
 
   return (
     <>

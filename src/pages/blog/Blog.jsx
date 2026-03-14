@@ -132,7 +132,7 @@ const Blog = () => {
             <p>
               <span>
                 For collaborations, podcast inquiries, or just to say hi,
-                reach out to umeir.zammer@example.com
+                reach out to umairzameer523@gmail.com
               </span>
             </p>
 

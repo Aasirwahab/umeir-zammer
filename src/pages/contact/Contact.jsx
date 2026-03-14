@@ -58,7 +58,7 @@ const Contact = () => {
               </h3>
               <p>
                 Stay updated with the latest episodes and content from the
-                Umeir Zammer Podcast. Join our community of growth-minded
+                Umair Zameer Podcast. Join our community of growth-minded
                 individuals in the UAE and beyond.
               </p>
 
